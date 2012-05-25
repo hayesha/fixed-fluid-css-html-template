@@ -1,0 +1,135 @@
+/**
+  * Website Admin - Mobile Stylesheet
+  * @author: Hayesha Somarathne <hayeshais@gmail.com> - http://thoughtsandideas.wordpress.com/
+  * @version: 1.0
+  * @date: 21 - 05 - 2012
+  *  
+  * @license: LGPL - http://www.gnu.org/licenses/lgpl.html
+  *
+ */
+
+
+/* Clear floats without structural markup */
+.clearfix:after { content: '.';  display: block; height: 0; clear: both; visibility: hidden; }
+
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%; }
+/* End hide from IE-mac */
+
+#header {  }
+    #header-inner { height: 85px; }
+    #header h1 { margin:0; padding: 5px 0 6px 15px; color: #444; border-bottom: 1px solid #D0D0D0;  font-size: 1.5em; float: left; }
+    #header #logo { float: left; display: block; width: auto; margin: 5px; }
+    #header #quick-login { float: right; display: block; clear: right; }
+
+#navigation { background: #FFFFD0; border-bottom: 2px solid #748D8E; }
+	
+	
+#content { border-left: 2px solid #748D8E; }
+    #content-inner { padding: 0 10px 5px 10px; }
+    #content p { line-height:1.4em; }
+    
+        #content-header { }
+            #content-header-inner { }
+                #content-header #breadcrumbs { display: none; } 
+
+                #content-header #content-title {  }
+                    #content-header #content-title .title { padding: 5px 0; font-size: 1.5em; line-height: 1.333em;  }
+             
+        #content-area {  }
+            #content-area-inner { }
+            #content-area h3 { margin-top: 15px; border-bottom: 1px solid #999; }
+            #content-area p { padding: 5px 0; text-align: justify; }
+            #content-area ul { padding-left: 5px; }
+            #content-area ul li { background: none; text-align: justify; margin: 3px 0; list-style: disc inside none; }
+            #content-area ul a { font-size: 12px; }
+	    
+	    #content-area #columns ul li { list-style: none; }
+
+	    /* tabualr data related styles */
+	    
+	    #content-area .result { clear: both; display: block; float: left; width: 100%; margin-bottom: 20px; }    
+	    
+            #content-area table { background:transparent; width:100%; border-collapse:collapse; margin: 0; }
+            #content-area table thead th { text-align: center; padding:0.25em; background:#eee; color:#000; font-size: 99%; border: 1px solid #666666; }
+            #content-area table tfoot th { text-align: right; padding:0.25em; background: #fff; color:#000; font-size: 99%; border: 1px solid #666666; }
+            #content-area tr td { text-align:left; padding: 0.2em; font-size: 90%; color:#000; background:#FFF; border: 1px solid #666666; }
+            #content-area tr.even td { background: #F5F5F5; }  
+            
+            #content-area tr td img { margin: 3px !important; }
+            #content-area tr:hover td { background:#FFF98F; } 
+            #content-area tr.green td { background:#C3FFAD; }
+            #content-area tr.yellow td { background:#FFF98F; }        
+            
+				#content-area tr td.action { text-align: center; }				
+				#content-area tr td.action a { text-align: center; }          
+				#content-area tr td.action img { border: none !important; margin: 0 5px !important;  padding: 0 !important;  }
+				#content-area tr td span.sub-info { color: #999999; font-size: 11px;}
+	    
+        #content-bottom { }
+            #content-bottom-inner { margin: 5px 0; }
+            
+            
+#sidebar-left {  }
+    #sidebar-left-inner { padding: 0 0 5px 10px; }
+    
+    #sidebar-left h2 { color: #555555; font-size: 1.25em; line-height: 1.333em; padding-bottom: 10px; }
+    #sidebar-left p { }
+    #sidebar-left ul { padding-left: 0; }
+    #sidebar-left ul li { background: transparent url(../images/icons.gif) no-repeat scroll 0 -141px; padding-left: 10px; line-height: 18px; }
+    
+    
+#sidebar-right { background-color: #F5F5DC; }
+    #sidebar-right-inner { padding: 0 10px 5px 0; }
+    #sidebar-left p { text-align: justify; }
+
+#footer {  color: #fff; border-top: 2px solid #748D8E; }
+    #footer-inner { margin: 10px 0; }
+
+
+    #footer #secondary ul { padding: 0; margin:0; }
+    #footer #secondary ul li { display: inline; padding: 5px 10px; border-right: 1px solid #aaa; line-height: 16px; font-size: 12px; }
+
+.special { font-weight: bold; color: #7B767A; }
+.left { float: left !important;  }
+.text-left { text-align: left !important; }
+.right { float: right !important;  }
+
+.hide { display: none; }
+.show { display: block; }
+
+/* Message Display Styles 
+   ------------------------------------------------------------------------------- */
+.errors { border:  #C00 1px solid; background: url(../images/dialog-error.png) #FFE5E5 no-repeat 5px 5px; }
+.errors p em { color:#C00; }
+
+.confirmation { border: #070 1px solid; background: url(../images/dialog-confirmation.png) #E5FFE5 no-repeat 5px 5px; }
+.confirmation p em { color:#070; }
+
+.warning { border: #FC6 1px solid; background: url(../images/dialog-warning.png) #FFC no-repeat 5px 5px; }
+.warning p em { color:#C00;  }
+
+.information { border: #9ED8D7 1px solid; background: url(../images/dialog-information.png) #ECFDFF no-repeat 5px 5px; }
+.information p em { color:#748D8E;  }
+
+.message { margin: 0 0 10px 0; padding: 5px 10px 5px 35px; }
+.message p { margin: 0; padding-bottom: 0.25em; }
+.message ul { margin: 10px auto; list-style-type: disc; padding: 0 0 0.25em 1.25em; }
+.message ul li { list-style-type: disc; padding-left: 0; }
+.message p em { font-style: normal; font-weight: bold; }
+
+#msg { float: left; display: block; clear: both; width: 100%; }
+
+/* Tooltip Styles 
+   ------------------------------------------------------------------------------- */
+.tooltip { border-bottom: 1px dotted #000000; color: #000000; cursor: help; outline: medium none; position: relative; text-decoration: none; }
+a.tooltip { text-decoration: none; }
+.tooltip span { margin-left: -999em; position: absolute; color: #000; }   
+.tooltip:hover span,
+.tooltip:focus span { position: absolute; left: 1em; top: 2em; z-index: 99; margin-left: 0; width: 250px;  } 
+.tooltip:hover em,
+.tooltip:focus em { font-size: 1.2em; font-weight: bold; display: block; padding: 0.1em 0; } 
+.help { background: repeat scroll 0 0 #9FDAEE; border: 1px solid #2BB0D7; }
+.simple { background: repeat scroll 0 0 #ffffff; border: #4D90FE 1px solid; color: #000000; }
+.custom { padding: 0.5em; }
+

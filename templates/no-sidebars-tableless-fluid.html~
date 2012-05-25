@@ -1,0 +1,656 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>No Sidebars Tableless fluid layout</title>
+	<meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+	<meta name="viewport" content="initial-scale=1.0, width=device-width, height=device-height, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico" >
+
+	<link rel="stylesheet" href="../css/html-elements.css" type="text/css" media="screen, projection" />
+	<link rel="stylesheet" href="../css/layout.css" type="text/css" media="screen, projection" />
+	<link rel="stylesheet" href="../css/sidebar.css" type="text/css" media="screen, projection" />
+	<link rel="stylesheet" href="../css/form-elements.css" type="text/css" media="screen, projection" />
+
+	<link rel="stylesheet" href="../plugins/superfish/css/superfish.css" type="text/css"  media="screen, projection" />
+
+	<link rel="stylesheet" href="../css/website.css" type="text/css" media="screen, projection" />
+	<link rel="stylesheet" href="../css/handheld.css" type="text/css" media="handheld" />	
+	<link rel="stylesheet" href="../css/print.css" type="text/css" media="print" />
+		  
+  
+	<!--[if IE 8]>
+		<link rel="stylesheet" href="../css/ie_8.css" type="text/css" media="screen, projection" />
+	<![endif]-->
+	  
+	<!--[if IE 7]>
+		<link rel="stylesheet" href="../css/ie_7.css" type="text/css" media="screen, projection" />
+	<![endif]-->
+	  
+	<!--[if IE 6]>
+		<link rel="stylesheet" href="../css/ie_6.css" type="text/css" media="screen, projection" />
+	<![endif]-->
+
+
+</head>
+<body class="fluid-layout">
+<div id="wrapper" class="no-sidebars">
+  <div id="wrapper-inner">
+    
+    <div id="header">
+      <div id="header-inner">
+        <div id="logo"><a href="index.html" title="Website Admin"><img src="../images/image-logo.png" alt="image-logo"/></a></div> <!-- /#logo-->
+        <h1>Template</h1>
+	<div id="quick-login">
+        	<ul>
+        		<li class="item">Admin</li>
+        		<li class="item"><a href="#" title="Login">Login</a></li>
+        		<li class="item last"><a href="#" title="Logout">Logout</a></li>
+        		
+        	</ul>
+        </div> <!-- /#quick-login-->
+      </div> <!-- /#header-inner-->
+    </div> <!-- /#header-->
+    
+    <div id="navigation">
+      <div id="navigation-inner">        
+		<ul class="sf-menu">	 
+			    <li><a href="index.html">Dashboard</a>
+			    </li>
+			    <li><a href="javascript:void(0);">Fluid Layout</a>
+			        <ul>
+			            <li><a href="no-sidebars-tableless-fluid.html">No Sidebars</a></li>
+			            <li><a href="sidebar-left-tableless-fluid.html">Sidebar Left</a></li>
+			            <li><a href="sidebar-right-tableless-fluid.html">Sidebar Right</a></li>
+			            <li><a href="two-sidebars-tableless-fluid.html">Two sidebar</a></li>
+			        </ul>
+			    </li>
+			    
+			    <li><a href="javascript:void(0);">Flxed Layout</a>
+			        <ul>
+			            <li><a href="no-sidebars-tableless-fixed.html">No Sidebars</a></li>
+			            <li><a href="sidebar-left-tableless-fixed.html">Sidebar Left</a></li>
+			            <li><a href="sidebar-right-tableless-fixed.html">Sidebar Right</a></li>
+			            <li><a href="two-sidebars-tableless-fixed.html">Two sidebar</a></li>
+			        </ul>
+			    </li>
+			</ul> <!-- ./sf-menu -->   
+        
+      </div> <!-- /#navigation-inner-->
+    </div> <!-- /#navigation-->
+    
+    <div id="container">
+      <div id="content" class="clearfix">
+        <div id="content-inner">
+          
+          <div id="content-header">
+            <div id="content-header-inner">
+              <div id="breadcrumbs">
+                <ul>
+                  <li><a href="javascript:void(0);" title="Home">Home</a></li>
+                  <li>&nbsp; >> &nbsp; Content</li>
+                </ul>
+              </div>  <!-- /#breadcrumbs-->
+              
+              <div id="msg">
+                <div class="information message">
+                  <p><em>Information</em></p>
+                  <ul>
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                  </ul>
+                </div>  <!--  /.information .message -->
+                
+                <div class="confirmation message">
+                  <p><em>Confirmation</em></p>
+                  <ul>
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                  </ul>
+                </div>  <!--  /.confirmation .message -->
+                
+                <div class="warning message">
+                  <p><em>Warning</em></p>
+                  <ul>
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                  </ul>
+                </div>  <!--  /.warning .message -->
+                
+                <div class="errors message">
+                  <p><em>Oops... the following errors were encountered:</em></p>
+                  <ul>
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                  </ul>
+                </div>  <!--  /.error .message --> 
+              </div> <!-- /#msg -->
+              
+              <div id="content-title">
+                <h1 class="title register-logo">Main Content</h1>
+              </div>  <!-- /#content-title-->
+              
+	      <div class="button-panel">
+				<div class="button main left">
+					<a href="javascript:void(0);" title="Add New" >Add New</a> 	
+				</div>  <!-- /.button .main .left-->
+		
+				<div class="button normal right">
+					<a href="javascript:void(0);" title="Cancel" >Cancel</a> 	
+				</div>  <!-- /.button .main .right-->
+	      </div>  <!-- /.button-panel-->	      
+	      
+            </div> <!-- /#content-header-inner-->
+          </div> <!-- /#content-header-->
+          
+          <div id="content-area">
+            <div id="content-area-inner">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus rhoncus auctor ullamcorper. Sed a eleifend mi. Nunc sodales volutpat lorem, a cursus neque sagittis in. Mauris at semper libero. Praesent sollicitudin eros a lorem consectetur gravida. Integer convallis sagittis dolor sit amet aliquam. Nullam enim purus, dapibus et congue eget, accumsan sed odio.</p>
+              <h3>Toolip sample</h3>           
+              <p>Here are some examples of a <a class="tooltip" href="#">Help<span class="custom help"><em>Help</em>This is just an example of what you can do using a CSS tooltip, feel free to get creative and produce your own!</span></a> and <a class="tooltip" href="#">Simple<span class="custom simple"><em>Simple</em>This is just an example of what you can do using a CSS tooltip, feel free to get creative and produce your own!</span></a> CSS powered tooltip. This is just an example of what you can do so feel free to get creative and produce your own!</p>
+              
+              
+				<p> volutpat ante leo, sollicitudin bibendum purus. Phasellus varius, ligula vel ornare porta, massa neque molestie felis, nec placerat eros felis et dolor. Vivamus risus neque, tristique vitae luctus elementum, tristique non sem. Integer viverra dolor et mauris sollicitudin vitae convallis orci gravida. Nullam a quam lectus. Proin in dui nec ipsum tincidunt tristique eget vitae dolor. Proin hendrerit pretium ipsum sollicitudin pretium. Cras elementum libero sit amet elit tincidunt blandit at at dui. Nullam tincidunt leo eget erat ornare id mollis tortor hendrerit. </p>
+              <h3>Tabular result set</h3>
+              <div class="result">
+		
+		<div class="pagination">
+			<span class="active"><b>1</b></span>&nbsp;
+			<a href="javascript:void(0);">2</a>&nbsp;
+			<a href="javascript:void(0);">3</a>
+			<span class="next"><a href="javascript:void(0);">&gt;</a></span>&nbsp;
+			<a href="javascript:void(0);"><span class="last">Last</span></a>
+		</div> <!-- /.pagination -->	
+		
+                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <thead>
+                    <tr>
+                      <th>ID</th>
+                      <th>Item 1</th>
+                      <th>Item 2</th>
+                      <th>Item 3</th>
+                      <th>Actions</th>
+                    </tr>
+                  </thead>
+                  <tfoot>
+                    <tr>
+                      <th colspan="4">Total</th>
+                      <th>Result</th>
+                    </tr>
+                  </tfoot>
+                  <tbody>
+                    <tr>
+                      <td>1</td>
+                      <td>sdsd</td>
+                      <td>dfdklj</td>
+                      <td>lfk;lk</td>
+                      <td>;k;lk</td>
+                    </tr>
+                    <tr class="even">
+                      <td>2</td>
+                      <td>sdsd</td>
+                      <td>dfdklj</td>
+                      <td>lfk;lk</td>
+                      <td>;k;lk</td>
+                    </tr>
+                    <tr>
+                      <td>3</td>
+                      <td>sdsd</td>
+                      <td>dfdklj</td>
+                      <td>lfk;lk</td>
+                      <td>;k;lk</td>
+                    </tr>
+                    <tr class="even">
+                      <td>4</td>
+                      <td>sdsd</td>
+                      <td>dfdklj</td>
+                      <td>lfk;lk</td>
+                      <td>;k;lk</td>
+                    </tr>
+                    <tr>
+                      <td>5</td>
+                      <td>sdsd</td>
+                      <td>dfdklj</td>
+                      <td>lfk fklk</td>
+                      <td>dfdgfn</td>
+                    </tr>
+                    <tr class="even">
+                      <td>6</td>
+                      <td>sdsd</td>
+                      <td>dfdke fje jej</td>
+                      <td>erthriuh</td>
+                      <td>kfmklm </td>
+                    </tr>
+                    <tr>
+                      <td>7</td>
+                      <td>sdsd</td>
+                      <td>dfdklj</td>
+                      <td>fgfdmgk</td>
+                      <td>ddds fjkj</td>
+                    </tr>
+                    <tr class="even">
+                      <td>8</td>
+                      <td>sdsd</td>
+                      <td>fgfgyy6</td>
+                      <td>rretrlk</td>
+                      <td>fgdfgf</td>
+                    </tr>
+                    <tr>
+                      <td>9</td>
+                      <td>sdsd</td>
+                      <td>rgrrre</td>
+                      <td>lfk;lk</td>
+                      <td>dgffgfgfd</td>
+                    </tr>
+                  </tbody>
+                </table>
+		
+					<div class="pagination">
+						<span class="active"><b>1</b></span>&nbsp;
+						<a href="javascript:void(0);">2</a>&nbsp;
+						<a href="javascript:void(0);">3</a>
+						<span class="next"><a href="javascript:void(0);">&gt;</a></span>&nbsp;
+						<a href="javascript:void(0);"><span class="last">Last</span></a>
+					</div> <!-- /.pagination-->
+		
+              </div> <!-- /.results-->
+              
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus rhoncus auctor ullamcorper. Sed a eleifend mi. Nunc sodales volutpat lorem, a cursus neque sagittis in. Mauris at semper libero. Praesent sollicitudin eros a lorem consectetur gravida. Integer convallis sagittis dolor sit amet aliquam. Nullam enim purus, dapibus et congue eget, accumsan sed odio.</p>
+
+				<p> volutpat ante leo, sollicitudin bibendum purus. Phasellus varius, ligula vel ornare porta, massa neque molestie felis, nec placerat eros felis et dolor. Vivamus risus neque, tristique vitae luctus elementum, tristique non sem. Integer viverra dolor et mauris sollicitudin vitae convallis orci gravida. Nullam a quam lectus. Proin in dui nec ipsum tincidunt tristique eget vitae dolor. Proin hendrerit pretium ipsum sollicitudin pretium. Cras elementum libero sit amet elit tincidunt blandit at at dui. Nullam tincidunt leo eget erat ornare id mollis tortor hendrerit. </p>
+				
+              <h3>Tabular result set</h3>
+              <div class="result">
+
+					<div class="button-panel left">
+						<div class="button common left">
+							<input type="checkbox" name="select_all" class="check-item check-all" id="select_all" value="1" tabindex="$tabindex++" /> <label for="select_all">Select All</label>
+						</div>  <!-- /.button .main .left-->
+
+					</div> <!-- /.button-panel -->
+		
+					<div class="button-panel right">
+						<div class="button main left">
+							<a href="javascript:void(0);" title="Update" >Update</a> 	
+						</div>  <!-- /.button .main .left-->
+
+					</div> <!-- /.button-panel -->	
+					
+                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <thead>
+                    <tr>
+                      <th width="20px">&nbsp;</th>
+                      <th>Item 1</th>
+                      <th>Item 2</th>
+                      <th>Item 3</th>
+                      <th>Actions</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><input type="checkbox" name="select_item_1" class="check-item check-this" id="select_item_1" value="1 tabindex="$tabindex++"td>
+                      <td>sdsd</td>
+                      <td>dfdklj</td>
+                      <td>lfk;lk</td>
+                      <td>;k;lk</td>
+                    </tr>
+                    <tr class="even">
+                      <td><input type="checkbox" name="select_item_2" class="check-item check-this" id="select_item_2" value="1" tabindex="$tabindex++" /></td>
+                      <td>sdsd</td>
+                      <td>dfdklj</td>
+                      <td>lfk;lk</td>
+                      <td>;k;lk</td>
+                    </tr>
+                    <tr>
+                      <td><input type="checkbox" name="select_item_3" class="check-item check-this" id="select_item_3" value="1" tabindex="$tabindex++" /></td>
+                      <td>sdsd</td>
+                      <td>dfdklj</td>
+                      <td>lfk;lk</td>
+                      <td>;k;lk</td>
+                    </tr>
+                    <tr class="even">
+                      <td><input type="checkbox" name="select_item_4" class="check-item check-this" id="select_item_5" value="1" tabindex="$tabindex++" /></td>
+                      <td>sdsd</td>
+                      <td>dfdklj</td>
+                      <td>lfk;lk</td>
+                      <td>;k;lk</td>
+                    </tr>
+                    <tr>
+                      <td><input type="checkbox" name="select_item_5" class="check-item check-this" id="select_item_5" value="1" tabindex="$tabindex++" /></td>
+                      <td>sdsd</td>
+                      <td>dfdklj</td>
+                      <td>lfk fklk</td>
+                      <td>dfdgfn</td>
+                    </tr>
+                    <tr class="even">
+                      <td><input type="checkbox" name="select_item_6" class="check-item check-this" id="select_item_6" value="1" tabindex="$tabindex++" /></td>
+                      <td>sdsd</td>
+                      <td>dfdke fje jej</td>
+                      <td>erthriuh</td>
+                      <td>kfmklm </td>
+                    </tr>
+                    <tr>
+                      <td><input type="checkbox" name="select_item_7" class="check-item check-this" id="select_item_7" value="1" tabindex="$tabindex++" /></td>
+                      <td>sdsd</td>
+                      <td>dfdklj</td>
+                      <td>fgfdmgk</td>
+                      <td>ddds fjkj</td>
+                    </tr>
+                    <tr class="even">
+                      <td><input type="checkbox" name="select_item_8" class="check-item check-this" id="select_item_8" value="1" tabindex="$tabindex++" /></td>
+                      <td>sdsd</td>
+                      <td>fgfgyy6</td>
+                      <td>rretrlk</td>
+                      <td>fgdfgf</td>
+                    </tr>
+                    <tr>
+                      <td><input type="checkbox" name="select_item_9" class="check-item check-this" id="select_item_9" value="1" tabindex="$tabindex++" /></td>
+                      <td>sdsd</td>
+                      <td>rgrrre</td>
+                      <td>lfk;lk</td>
+                      <td>dgffgfgfd</td>
+                    </tr>
+                  </tbody>
+                </table>
+		
+					<div class="pagination">
+						<span class="active"><b>1</b></span>&nbsp;
+						<a href="javascript:void(0);">2</a>&nbsp;
+						<a href="javascript:void(0);">3</a>
+						<span class="next"><a href="javascript:void(0);">&gt;</a></span>&nbsp;
+						<a href="javascript:void(0);"><span class="last">Last</span></a>
+					</div> <!-- /.pagination -->
+		
+              </div> <!-- /.results-->				
+				
+				
+				
+				
+ <div class="form-container" >       
+                             <form action="#" method="post" accept-charset="utf-8" name="update" id="update">          
+                                
+                
+               
+                    
+             
+                    
+                    <fieldset>
+                         <legend>Add Role/Group</legend>
+
+                   
+                      <div class="brake"></div>
+                      <div class="form-item"><label for="user_role">User Role </label>
+                          <div>
+                              <input type="hidden" value="7" name="role_id" />
+                              <input type="text" id="user_role" name="user_role" value="System Administrator" ></input><span id="role_available"></span></div>
+                                         
+                       
+                        <div class="brake"></div>
+                         <legend>Permission Setting</legend>
+                                                                
+                          <div class="form-item parent">
+
+                         <label for="id41" class="">Manage Account  </label>                         
+                          
+                          <div><input type="checkbox" name="data[0]" class="cla_41" id="id41" value="41"
+                                      onclick="toggleChecked('cla_41');" tabindex=""  /></div>
+                        </div>  
+                          <div class="brake"></div>
+                                                 <div class="form-item child">
+                                                     <label>&nbsp;</label>                          
+                                                      
+                                                     <div>
+                                                                                                                  <input type="checkbox" id="id115" class="cla_411" name="data[0][]" value="115-41"
+                                                                  checked="true"  />                                                          <label for="id115">Reset Password  </label>
+                                                     </div> 
+                                                  </div> 
+                                                  <div class="brake"></div>
+
+                                                 <div class="form-item child">
+                                                     <label>&nbsp;</label>                          
+                                                      
+                                                     <div>
+                                                                                                                  <input type="checkbox" id="id116" class="cla_411" name="data[0][]" value="116-41"
+                                                                  checked="true"  />                                                          <label for="id116">Update Information  </label>
+                                                     </div> 
+                                                  </div> 
+                                                                                          
+                          <div class="form-item parent">
+                         <label for="id42" class="">Manage Users  </label>                         
+                          
+                          <div><input type="checkbox" name="data[1]" class="cla_42" id="id42" value="42"
+                                      onclick="toggleChecked('cla_42');" tabindex=""  /></div>
+
+                        </div>  
+                       <div class="brake"></div>
+                                                 <div class="form-item child">
+                                                     <label>&nbsp;</label>                          
+                                                      
+                                                     <div>
+                                                                                                                  <input type="checkbox" id="id117" class="cla_421" name="data[1][]" value="117-42"
+                                                                  checked="true"  />                                                          <label for="id117">View All  </label>
+                                                     </div> 
+                                                  </div> 
+                          <div class="brake"></div>
+                                                 <div class="form-item child">
+
+                                                     <label>&nbsp;</label>                          
+                                                      
+                                                     <div>
+                                                                                                                  <input type="checkbox" id="id118" class="cla_421" name="data[1][]" value="118-42"
+                                                                  checked="true"  />                                                          <label for="id118">Add New  </label>
+                                                     </div> 
+                                                  </div> 
+                                                  <div class="brake"></div>
+                                                 <div class="form-item child">
+                                                     <label>&nbsp;</label>                          
+                                                      
+                                                     <div>
+                                                                                                                  <input type="checkbox" id="id119" class="cla_421" name="data[1][]" value="119-42"
+                                                                  checked="true"  />                                                          <label for="id119">Edit  </label>
+
+                                                     </div> 
+                                                  </div> 
+                                                 <div class="brake"></div>
+                                                 <div class="form-item child">
+                                                     <label>&nbsp;</label>                          
+                                                      
+                                                     <div>
+                                                                                                                  <input type="checkbox" id="id120" class="cla_421" name="data[1][]" value="120-42"
+                                                                  checked="true"  />                                                          <label for="id120">Disable  </label>
+                                                     </div> 
+                                                  </div> 
+                                                                                     
+                          <div class="form-item parent">
+
+                         <label for="id43" class="">Manage Roles  </label>                         
+                          
+                          <div><input type="checkbox" name="data[2]" class="cla_43" id="id43" value="43"
+                                      onclick="toggleChecked('cla_43');" tabindex=""  /></div>
+                        </div>  
+                       <div class="brake"></div>
+                                                 <div class="form-item child">
+                                                     <label>&nbsp;</label>                          
+                                                      
+                                                     <div>
+                                                                                                                  <input type="checkbox" id="id121" class="cla_431" name="data[2][]" value="121-43"
+                                                                  checked="true"  />                                                          <label for="id121">View All  </label>
+                                                     </div> 
+                                                  </div> 
+                                                  <div class="brake"></div>
+
+                                                 <div class="form-item child">
+                                                     <label>&nbsp;</label>                          
+                                                      
+                                                     <div>
+                                                                                                                  <input type="checkbox" id="id122" class="cla_431" name="data[2][]" value="122-43"
+                                                                  checked="true"  />                                                          <label for="id122">Add New  </label>
+                                                     </div> 
+                                                  </div> 
+                                                  <div class="brake"></div>
+                                                 <div class="form-item child">
+                                                     <label>&nbsp;</label>                          
+                                                      
+                                                     <div>
+
+                                                                                                                  <input type="checkbox" id="id123" class="cla_431" name="data[2][]" value="123-43"
+                                                                  checked="true"  />                                                          <label for="id123">Edit  </label>
+                                                     </div> 
+                                                  </div> 
+                                                                                    
+                          <div class="form-item parent">
+                         <label for="id44" class="">Application Users  </label>                         
+                          
+                          <div><input type="checkbox" name="data[3]" class="cla_44" id="id44" value="44"
+                                      onclick="toggleChecked('cla_44');" tabindex=""  /></div>
+                        </div>  
+                       <div class="brake"></div>
+                                                 <div class="form-item child">
+
+                                                     <label>&nbsp;</label>                          
+                                                      
+                                                     <div>
+                                                                                                                  <input type="checkbox" id="id124" class="cla_441" name="data[3][]" value="124-44"
+                                                                  checked="true"  />                                                          <label for="id124">View All  </label>
+                                                     </div> 
+                                                  </div> 
+                        <div class="brake"></div>
+                                                 <div class="form-item child">
+                                                     <label>&nbsp;</label>                          
+                                                      
+                                                     <div>
+                                                                                                                  <input type="checkbox" id="id125" class="cla_441" name="data[3][]" value="125-44"
+                                                                  checked="true"  />                                                          <label for="id125">Search  </label>
+
+                                                     </div> 
+                                                  </div> 
+                                                  <div class="brake"></div>
+                                                 <div class="form-item child">
+                                                     <label>&nbsp;</label>                          
+                                                      
+                                                     <div>
+                                                                                                                  <input type="checkbox" id="id126" class="cla_441" name="data[3][]" value="126-44"
+                                                                  checked="true"  />                                                          <label for="id126">Disable Profile  </label>
+                                                     </div> 
+                                                  </div> 
+                                                                                  
+                          <div class="form-item parent">
+
+                         <label for="id45" class="">Application Merchants  </label>                         
+                          
+                          <div><input type="checkbox" name="data[4]" class="cla_45" id="id45" value="45"
+                                      onclick="toggleChecked('cla_45');" tabindex=""  /></div>
+                        </div>  
+                        <div class="brake"></div>
+                                                 <div class="form-item child">
+                                                     <label>&nbsp;</label>                          
+                                                      
+                                                     <div>
+                                                                                                                  <input type="checkbox" id="id127" class="cla_451" name="data[4][]" value="127-45"
+                                                                  checked="true"  />                                                          <label for="id127">View All  </label>
+                                                     </div> 
+                                                  </div> 
+                                       <div class="brake"></div>
+
+                                                 <div class="form-item child">
+                                                     <label>&nbsp;</label>                          
+                                                      
+                                                     <div>
+                                                                                                                  <input type="checkbox" id="id128" class="cla_451" name="data[4][]" value="128-45"
+                                                                  checked="true"  />                                                          <label for="id128">Search  </label>
+                                                     </div> 
+                                                  </div> 
+                                    <div class="brake"></div>
+                                                 <div class="form-item child">
+                                                     <label>&nbsp;</label>                          
+                                                      
+                                                     <div>
+
+                                                                                                                  <input type="checkbox" id="id129" class="cla_451" name="data[4][]" value="129-45"
+                                                                  checked="true"  />                                                          <label for="id129">Disable Profile  </label>
+                                                     </div> 
+                                                  </div> 
+                                                                                                                                                                                                            
+                                                                                                                                                                                                           
+                                                                                                                                                                                                         
+                                                                                                      <div class="brake"></div>
+                                                 <div class="form-item child">
+                                                     <label>&nbsp;</label>                          
+                                                      
+                                                     <div>
+                                                                                                                  <input type="checkbox" id="id133" class="cla_491" name="data[8][]" value="133-49"
+                                                                  checked="true"  />                                                          <label for="id133">View All  </label>
+                                                     </div> 
+                                                  </div> 
+                                                  
+                     </fieldset> 
+                     <div class="buttonrow">
+
+                      <input type="submit" value="update" class="button main" name="edit" />
+                      </div>
+                     </div>                    
+                                    
+                </div> <!-- /.form-container -->	
+				
+            </div> <!-- /#content-area-inner-->
+          </div> <!-- /#content-area-->
+          
+          <div id="content-bottom">
+            <div id="content-bottom-inner">
+              <p> volutpat ante leo, sollicitudin bibendum purus. Phasellus varius, ligula vel ornare porta, massa neque molestie felis, nec placerat eros felis et dolor. Vivamus risus neque, tristique vitae luctus elementum, tristique non sem. Integer viverra dolor et mauris sollicitudin vitae convallis orci gravida. Nullam a quam lectus. Proin in dui nec ipsum tincidunt tristique eget vitae dolor. Proin hendrerit pretium ipsum sollicitudin pretium. Cras elementum libero sit amet elit tincidunt blandit at at dui. Nullam tincidunt leo eget erat ornare id mollis tortor hendrerit. </p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus rhoncus auctor ullamcorper. Sed a eleifend mi. Nunc sodales volutpat lorem, a cursus neque sagittis in. Mauris at semper libero. Praesent sollicitudin eros a lorem consectetur gravida. Integer convallis sagittis dolor sit amet aliquam. Nullam enim purus, dapibus et congue eget, accumsan sed odio.</p>
+              
+            </div> <!-- /#content-bottom-inner-->
+          </div> <!-- /#content-bottom-->
+          
+        </div> <!-- /#content-inner-->  
+      </div> <!-- /#content-->
+    </div> <!-- /#container-->
+   
+    <div id="footer">
+      <div id="footer-inner">
+        
+        <div id="copyright">
+          <p>&copy; <a href="javascript:void(0);" title="Website">Website</a> 2012, All Rights Reserved.</p>
+        </div> <!-- /#copyright-->
+        
+        <div id="secondary">
+          <div id="secondary-inner">
+            <ul>
+              <li class="item first"><a href="javascript:void(0);" title="FAQ">FAQ</a></li>
+              <li class="item"><a href="javascript:void(0);" title="Help">Help</a></li>
+              <li class="item"><a href="javascript:void(0);" title="Terms &amp; Conditions">Terms &amp; Conditions</a></li>
+              <li class="item"><a href="javascript:void(0);" title="Privacy Policy">Privacy Policy</a></li>
+              <li class="item last"><a href="javascript:void(0);" title="Site Map">Site Map</a></li>
+            </ul>
+          </div> <!-- /#secondary-inner-->         
+        </div> <!-- /#secondary-->
+        
+      </div> <!-- /#footer-inner-->
+    </div> <!-- /#footer-->
+    
+  </div> <!-- /#wrapper-inner-->
+</div> <!-- /#wrapper /.no-sidebars-->
+
+	<!-- loading the jquery javascript libraries -->	
+   <script type="text/javascript" src="../plugins/jquery/jquery.min.js"></script>
+   
+	<!-- loading the superfish menu javascript libraries -->   
+	<script type="text/javascript" src="../plugins/superfish/js/hoverIntent.js"></script>
+	<script type="text/javascript" src="../plugins/superfish/js/superfish.js"></script>
+	<script type="text/javascript">
+		// initialise plugins
+		jQuery(function(){
+			jQuery('ul.sf-menu').superfish();
+		});
+	</script>
+   
+	<!-- loading the mobile browser detection javascript libraries -->   
+   <script type="text/javascript" src="../plugins/jquery/jquery.browser.mobile.js"></script>
+  	<!-- loading the mobile browser orientation detection javascript libraries -->
+   <script type="text/javascript" src="../js/window.orientation.js"></script>
+   
+	<script type="text/javascript" src="../js/actions.js"></script>
+
+
+</body>
+</html>

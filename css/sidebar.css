@@ -1,0 +1,17 @@
+/**
+  * Website Theme - Sidebar Stylesheet
+  * @author: Drupal Zen Theme
+  * @author: Hayesha Somarathne <hayeshais@gmail.com> - http://thoughtsandideas.wordpress.com/
+  * @version: 1.0
+  * @date: 21 - 05 - 2012
+  *  
+  * @license: LGPL - http://www.gnu.org/licenses/lgpl.html
+  *
+  */
+
+
+#sidebar-left {  }
+    #sidebar-left-inner { margin: 0 20px 0 0; }
+
+#sidebar-right {  }
+    #sidebar-right-inner { margin: 0 0 0 20px; }

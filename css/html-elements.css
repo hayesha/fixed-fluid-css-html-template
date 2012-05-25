@@ -1,0 +1,118 @@
+/**
+  * Website Theme - HTML Elements Stylesheet
+  * @author: Kyle - http://www.crucialwebhost.com/blog/master-stylesheet-the-most-useful-css-technique/
+  * @author: Hayesha Somarathne <hayeshais@gmail.com> - http://thoughtsandideas.wordpress.com/
+  * @version: 1.0
+  * @date: 21 - 05 - 2012
+  *
+  * @license: LGPL - http://www.gnu.org/licenses/lgpl.html
+  *
+  */
+
+/***** Global Settings *****/
+html, body { border:0; margin:0; padding:0; }
+body { font:85%/1.25 Verdana,Helvetica,Arial,sans-serif; }
+ 
+/***** Headings *****/
+h1, h2, h3, h4, h5, h6 { margin:0; padding:0; font-weight:normal; font-family: 'gill sans mt pro','century gothic',corbel,sans-serif; }
+h1 { padding:30px 0 25px 0; letter-spacing:-1px; font-size:2em; }
+h2 { padding:20px 0; letter-spacing:-1px; font-size:1.5em; }
+h3 { font-size:1em; font-weight:bold; }
+ 
+/***** Common Formatting *****/
+p,
+ul,
+ol { margin:0; padding:0 0 1.25em 0; color: #222222; font-family: Helvetica; }
+
+ul,
+ol { padding:0 0 1.25em 2.5em; }
+ 
+/** lists **/
+/* standardize list item indentation */
+ul, ol { margin-left: 0; padding-left: 2em; }
+  
+/**=Ordered lists**/
+ol { padding-left: 1.5em !important; } 
+  
+ol li { list-style-type: decimal; background: none; padding-left: 0; list-style-position: inside; text-indent:0  }
+
+ul ul,
+ul ol,
+ol ol,
+ol ul { margin: 0; } 
+ 
+/** CSS for the li's to have a background image and retain its padding-left when it goes over one line **/
+li,
+ul.menu li, /* Drupal override */
+li.leaf,
+ul.links li {
+  margin: 0;
+  list-style-image: none;
+  list-style-position: outside;
+  list-style-type: none;
+  background: transparent url(images/bullet.gif) 0 .5em no-repeat;
+  padding: 0 0 0 8px;
+} 
+ 
+dt { margin: 0; padding: 0; }
+dd { margin: 0 0 0 2em; padding: 0; } 
+ 
+blockquote { margin:1.25em; padding:1.25em 1.25em 0 1.25em; }
+
+small { font-size:0.85em; }
+ 
+/** images **/
+img { border: 0; }
+
+/** horizontal rules **/
+hr { height: 1px; border: 1px solid #666; }
+ 
+
+pre,
+code  {
+  font-size: 1.1em; /* Monospace fonts can be hard to read */
+  font-family: "Bitstream Vera Sans Mono", "Courier New", monospace;
+} 
+ 
+sup { position:relative; bottom:0.3em; vertical-align:baseline; }
+ 
+sub { position:relative; bottom:-0.2em; vertical-align:baseline; }
+ 
+/** abbreviations **/
+acronym,
+abbr { border-bottom: 1px dotted #666; cursor: help; white-space: nowrap;  letter-spacing:1px; }
+/* Date-based "abbreviations" show computer-friendly timestamps which are not
+   human-friendly. */
+abbr.created { border: none; cursor: auto; white-space: normal; } 
+ 
+ 
+/***** Links *****/
+/* The order of link states are based on Eric Meyer's article:
+ * http://meyerweb.com/eric/thoughts/2007/06/11/who-ordered-the-link-states
+ */
+a:link,
+a:visited { outline: none; text-decoration: underline; color: #000; }
+
+a:hover,
+a:focus { outline: none; color: #000066; }
+
+a:active { } 
+ 
+/***** Forms *****/
+form { margin:0; padding:0; display:inline; }
+input,
+select,
+textarea { font:1em Arial, Helvetica, sans-serif; }
+textarea { width:100%; line-height:1.25; }
+label { cursor:pointer; }
+ 
+/***** Tables *****/
+table { border:0; margin:0 0 1.25em 0; padding:0; border-collapse: collapse; /* width: 100%; */ /* Prevent cramped-looking tables */ }
+
+th,
+thead th,
+tbody th { text-align: left; padding-right: 0; border-bottom: none; }
+
+table tr td { padding:2px; }
+
+tbody { border-top: none; }
