@@ -10,6 +10,7 @@
   */
 
 
+
 /* Form Layout Styles 
    ------------------------------------------------------------------------------- */
 p.legend { margin-bottom: 1em; }
@@ -30,7 +31,7 @@ div.form-container form fieldset label.errorfield,
 div.form-container form fieldset span.errorfield { color: #C00;  }
 div.form-container form fieldset span.error { color: #C00; font-size: 11px; }
 div.form-container form fieldset label.value{display:block;text-align:left;width:auto;}
-div.form-container form fieldset .parent label { border-bottom: 1px solid #000; font-weight: bold; }
+div.form-container form fieldset .parent label { font-family: corbel,'gill sans mt pro','century gothic',sans-serif; font-weight: bold; }
 div.form-container form fieldset .form-item div label { display: block; /* clear: both; */ }
 div.form-container form fieldset .child div label { text-align: left; }
 div.form-container form fieldset input.errorfield { border-color: #C00; background-color: #FEF; }
