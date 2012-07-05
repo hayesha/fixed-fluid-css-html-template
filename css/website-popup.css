@@ -21,7 +21,7 @@
 #header { width: 100%; clear: both; border-bottom: 2px solid #999; background-color: #F5F5F5; }
     #header-inner { height: 70px; }
     #header h1 { margin:0; padding: 5px 0 6px 15px; color: #444; border-bottom: 1px solid #D0D0D0;  font-size: 1.5em; float: left; }
-    #header #logo { float: left; display: block; width: auto; margin: 10px; }
+    #header #logo { float: left; display: block; width: auto; }
 	
 /* Main wrapper that hold the main content of the page */
 #container { float:left; width:100%; background: #fff; }
@@ -42,13 +42,14 @@
                 #content-header #content-title {  }
                     #content-header #content-title .title { padding: 5px 0; font-size: 1.5em; line-height: 1.333em;  }
                     #content-header #content-title .task-logo { padding: 0 0 10px 30px; background: transparent url(../images/icon/task.png) 0 3px no-repeat scroll;  }
+                    #content-header #content-title .title .sub-text { font-size: 14px; line-height: 18px; font-family: Verdana,Helvetica,Arial,sans-serif; font-weight: bold;  }
 		        
         #content-area { clear: both; float: left; width: 100%; }
             #content-area-inner { }
             #content-area h3 { margin-top: 15px; border-bottom: 1px solid #999; }
             #content-area p { padding: 5px 0; text-align: justify; }
             #content-area ul { padding-left: 5px; }
-            #content-area ul li { background: none; text-align: justify; margin: 3px 0; list-style: disc inside none; }
+            #content-area ul li { background: transparent; text-align: justify; margin: 3px 0; list-style: disc inside none; }
             #content-area ul a { font-size: 12px; }
 
 	    /* tabualr data related styles */
@@ -56,10 +57,11 @@
 	    #content-area .result { clear: both; display: block; float: left; width: 100%; margin-bottom: 20px; }	    
 	    
             #content-area table { background:transparent; width:100%; border-collapse:collapse; margin: 0; }
-            #content-area table thead th { text-align: center; padding:0.25em; background:#eee; color:#000; font-size: 99%; border: 1px solid #666666; }
-            #content-area table tfoot th { text-align: right; padding:0.25em; background: #fff; color:#000; font-size: 99%; border: 1px solid #666666; }
-            #content-area tr td { text-align:left; padding: 0.2em; font-size: 90%; color:#000; background:#fff; border: 1px solid #666666; }            
-            #content-area tr.even td { background: #F5F5F5; }  
+            #content-area table thead th { text-align: center; padding:0.25em; background-color:#D3D3D3; color:#222222; font-size: 12px; border: 1px solid #DCDCDC; }
+            #content-area table tfoot th { text-align: right; padding:0.25em; background-color: #fff; color:#222222; font-size: 12px; border: 1px solid #DCDCDC; }
+            #content-area tr td { text-align:left; padding: 0.3em; font-size: 90%; color:#000; background-color:#fff; border: 1px solid #DCDCDC; }
+            #content-area tr td.align-right { text-align: right; }
+            #content-area tr.even td { background-color: #F5F5F5; }  
             
             #content-area tr td img { margin: 5px !important; }
             #content-area tr:hover td { background:#fafad2; } 
@@ -79,7 +81,7 @@
 #footer,
 #footer-inner { clear: both; float: left; width: 100%; }
             
-#footer {  color: #fff; border-top: 2px solid #748D8E;  background: #fff; }
+#footer {  color: #fff; border-top: 2px solid #748D8E;  background-color: #fff; }
     #footer-inner { margin: 10px 0; }
     #footer #copyright p { margin:0; padding: 0 10px; font-size: 12px; color: #333333; }
     #footer #copyright p a:link,
@@ -137,9 +139,10 @@ a.tooltip { text-decoration: none; }
 	.button-panel .button { float: left; display: block; width: auto; margin: 5px 5px 5px 0; padding: 3px 10px; }
 		.main { border:1px solid #3079ED; background-color: #4D90FE; font-weight: bold; }
 		.normal { border:1px solid #DCDCDC; background-color: #F5F5F5;  } 
-		.common { border: none; background-color: none; }
+		.common { border: none; background-color: transparent; }
 		.button input { margin-left: -2px; }
-		.button a { text-transform: uppercase; text-decoration: none; cursor: pointer; font-size: 0.925em; font-family: 'gill sans mt pro','century gothic'; }
+		.button a,
+                .button input { text-transform: uppercase; text-decoration: none; cursor: pointer; font-size: 0.925em; font-family: corbel,'gill sans mt pro','century gothic',sans-serif; }
 		.button a:link,
 		.button a:active { color: #000000; }
 		.button a:focus,
